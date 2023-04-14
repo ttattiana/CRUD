@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Información del Estudiante</title>
+    </head>
+    <body>
+        <h1>Información del Estudiante</h1>
+        <table>
+            <tr>
+                <td>ID Estudiante</td>
+                <td> <input type="text" name="EstudianteId" value=""/></td>
+
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text" name="Nombre" value=""/></td>
+            </tr>          
+            <tr>
+                <td>Apellido</td>
+                <td><input type="text" name="Apellido" value=""/></td>
+            </tr>
+            <tr>
+                <td>Año Nivel</td>
+                <td><input type="text" name="AñoNivel" value=""/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="action" value="Add" />
+                     <input type="submit" name="action" value="Edit"/>
+                      <input type="submit" name="action" value="Delete"/>
+                       <input type="submit" name="action" value="Search"/>
+            </tr>
+        </table>
+        <br>
+        <table border ="1">
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>NivelAño</th>
+        </table>
+    </body>
+</html>
